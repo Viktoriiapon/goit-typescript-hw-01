@@ -11,7 +11,7 @@ type IPages ={
 
 };
 
-const page1: Pages = {
+const page1: IPages = {
     title: 'The awesome page',
     likes: 100,
     accounts: ['Max', 'Anton', 'Nikita'],
@@ -22,7 +22,7 @@ const page1: Pages = {
     }
   }
   
-  const page2: Pages = {
+  const page2: IPages = {
     title: 'Python or Js',
     likes: 5,
     accounts: ['Alex'],
