@@ -6,7 +6,7 @@ interface User {
     password: string;
   }
   
-  function createOrUpdateUser(initialValues: Partial<User>) {
+  function createOrUpdateUser(initialValues: Partial<User>):User {
     return {...initialValues };
   }
   
